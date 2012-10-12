@@ -1,0 +1,37 @@
+INSTALL for the Herald Project
+
+
+What tools do I need?
+---------------------
+
+To build Herald, you'll need any Java 2 SDK installed. 
+
+To use the cryptography features of Herald you will need to have a
+Java Cryptography provider install. The Sun provided extension at
+<http://java.sun.com/products/jce/index.html> is the best place to start.
+
+
+How is it built?
+----------------
+
+To build Herald, simply use one of the two scripts in the root
+directory. For UNIX platforms, build.sh should fit the bill. Windows
+platforms should use build.bat. For other platforms it should be straight
+forward to execute the appropriate commands listed in either of the
+scripts named above.
+
+Since building all the source in a Java application is usually much
+cheaper than figuring out exactly what to build, the build scripts employ
+this strategy.
+
+Building herald creates a herald.jar file that can be executed using
+the Java run-time, i.e.
+
+        java -jar herald.jar
+
+
+
+Thanks for trying Herald!
+
+                                        The Herald Team
+                                        <http://herald.sourceforge.net>

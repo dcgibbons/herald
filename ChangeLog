@@ -1,0 +1,13 @@
+07/13/2000 by dcg
+M src/net/sourceforge/herald/ClientProperties.java
+M src/net/sourceforge/herald/ContactLists.java
+M src/net/sourceforge/herald/MessengerClient.java
+M src/net/sourceforge/herald/SwitchboardSession.java
+M src/net/sourceforge/herald/ui/ConversationFrame.java
+M src/net/sourceforge/herald/ui/HeraldFrame.java
+M src/net/sourceforge/herald/ui/PropertiesDialog.java
+switched to Java 2 Collection classes from Vector
+
+added INSTALL, README
+
+bumped version number to 0.5 in src/Version.properties
